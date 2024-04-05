@@ -1,0 +1,23 @@
+{
+  "name": "checkout-v14",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "rm -rf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next dev",
+    "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "^8.3.3",
+    "next": "^14.1.4",
+    "nextjs-shared-v14": "workspace:*",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "webpack": "^5.91.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.4",
+    "@types/react": "18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "typescript": "5.4.4"
+  }
+}
